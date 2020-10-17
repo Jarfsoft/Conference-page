@@ -1,8 +1,49 @@
-.bg-1{
+.bg-1 {
   background-color: #272a31;
 }
 
+.bg-2 {
+  background-color: #d3d3d3;
+}
+
 .logo {
-  width: 2rem;
-  
+  width: 3rem;
+
+}
+
+.head-section h2{
+  font-size: 2.5rem;
+}
+
+.head-section h1 {
+  font-size: 5rem;
+}
+
+.head-section p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+  #menu img{
+    display: none;
+  }
+  #try{
+    display: flex;
+    flex-direction: column;
+  }
+  .collapse {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  #menu{
+    display: flex;
+  }
 }
