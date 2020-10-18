@@ -48,6 +48,20 @@
   height: 100%;
 }
 
+.partners img {
+  height: 3.5rem;
+  width: auto;
+}
+
+footer img {
+  width: 15rem;
+  height: auto;
+}
+
+footer p {
+  height: 30px;
+}
+
 @media (max-width: 768px) {
   .mobile {
     display: block;
