@@ -2,6 +2,24 @@
   padding: 0;
 }
 
+footer div {
+  display: flex;
+  width: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer img {
+  width: 15rem;
+  height: auto;
+}
+
+footer p {
+  height: 30px;
+}
+
 .bg-1 {
   background-color: #272a31;
 }
@@ -22,7 +40,7 @@
   width: 3rem;
 }
 
-.head-section h2{
+.head-section h2 {
   font-size: 4rem;
 }
 
@@ -52,14 +70,14 @@
   width: auto;
 }
 
-.past img{
+.past img {
   width: 35rem;
   height: 20rem;
   filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
 }
 
-.logo-section h2{
+.logo-section h2 {
   font-size: 3rem;
 }
 
@@ -67,25 +85,7 @@
   font-size: 1.5rem;
 }
 
-footer div{
-  display: flex;
-  width: auto;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-footer img {
-  width: 15rem;
-  height: auto;
-}
-
-footer p {
-  height: 30px;
-}
-
-.logo-section img{
+.logo-section img {
   width: 6rem;
   height: auto;
   margin-left: 48%;
@@ -107,7 +107,7 @@ footer p {
     display: block;
   }
 
-  #menu img{
+  #menu img {
     display: none;
   }
 
@@ -120,14 +120,14 @@ footer p {
     display: block;
   }
 
-  .head-section h2{
+  .head-section h2 {
     font-size: 1.8rem;
   }
-  
+
   .head-section h1 {
     font-size: 3rem;
   }
-  
+
   .head-section p {
     font-size: 1.2rem;
   }
@@ -148,7 +148,7 @@ footer p {
     display: none;
   }
 
-  #menu{
+  #menu {
     display: flex;
   }
 
@@ -164,6 +164,6 @@ footer p {
   .rounded-pill {
     font-size: 1.8rem;
     height: 3.7rem;
-    width: 100%
-   }
+    width: 100%;
+  }
 }
