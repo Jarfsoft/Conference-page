@@ -20,7 +20,6 @@
 
 .logo {
   width: 3rem;
-
 }
 
 .head-section h2{
@@ -34,9 +33,9 @@
 }
 
 .head-section p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 8rem;
-
+  line-height: 1.8rem;
 }
 
 .presenters .col-md-6 {
@@ -53,6 +52,30 @@
   width: auto;
 }
 
+.past img{
+  width: 35rem;
+  height: 20rem;
+  filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.logo-section h2{
+  font-size: 3rem;
+}
+
+.logo-section p {
+  font-size: 1.5rem;
+}
+
+footer div{
+  display: flex;
+  width: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer img {
   width: 15rem;
   height: auto;
@@ -60,6 +83,23 @@ footer img {
 
 footer p {
   height: 30px;
+}
+
+.logo-section img{
+  width: 6rem;
+  height: auto;
+  margin-left: 48%;
+}
+
+.about {
+  filter: invert(1);
+}
+
+.text-inside {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.4rem;
 }
 
 @media (max-width: 768px) {
