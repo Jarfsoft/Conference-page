@@ -136,6 +136,11 @@ footer p {
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
   }
+
+  .rounded-pill {
+    font-size: 80%;
+    height: 2.3rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -154,5 +159,11 @@ footer p {
   .event-item {
     margin-left: 0.3rem;
     margin-right: 0.3rem;
+  }
+
+  .rounded-pill {
+    font-size: 1.2rem;
+    height: 2.8rem;
+    width: 75%;
   }
 }
